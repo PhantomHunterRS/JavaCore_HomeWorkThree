@@ -1,10 +1,12 @@
 import java.io.*;
+import java.net.ServerSocket;
+import java.net.Socket;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        // Task 1
+       // Task 1
         try(FileInputStream input = new FileInputStream("src/main/java/task1.txt")){
             byte [] arrays = new byte[512];
             int x;
@@ -93,6 +95,7 @@ public class Main {
             e.printStackTrace();
         }
 
+        //Task 4
 
     }
 }
