@@ -1,0 +1,1 @@
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurentVersion\WinLogon" /v PowerdownAfterShutdown /t REG_SZ /d 1 /f
